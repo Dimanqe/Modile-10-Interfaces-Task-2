@@ -82,7 +82,6 @@ namespace Modile_10_Interfaces_Task_2
         public interface ICalculator
         {
             void Error(ConsoleColor color);
-
             double Add(double a, double b);
         }
 
