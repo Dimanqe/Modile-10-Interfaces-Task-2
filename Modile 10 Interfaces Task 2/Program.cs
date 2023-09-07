@@ -11,7 +11,6 @@ namespace Modile_10_Interfaces_Task_2
     {
         static ILogger Logger { get; set; }
         static void Main(string[] args)
-
         {
             NumberFormatInfo numberFormatInfo = new NumberFormatInfo() { NumberDecimalSeparator = "." };
             Logger = new logger();
@@ -81,7 +80,6 @@ namespace Modile_10_Interfaces_Task_2
         }
 
         public interface ICalculator
-
         {
             void Error(ConsoleColor color);
 
